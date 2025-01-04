@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private int correctAnswer; // התשובה הנכונה
     private int numOptions = 4; // ברירת מחדל של כמות האפשרויות
-    private int score = 0; // מספר תשובות נכונות
+    private int score = 0; // מס תשובות נכונות
     private int totalQuestions = 0; // סך כל השאלות
     private Random random = new Random(); // אובייקט רנדומליות
 
