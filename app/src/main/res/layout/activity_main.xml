@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- צג הניקוד -->
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ניקוד: 0/0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="8dp" />
+
+    <!-- שאלה -->
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="השאלה תוצג כאן"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="16dp" />
+
+    <!-- כפתור שינוי כמות האפשרויות -->
+    <Button
+        android:id="@+id/btn_change_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="שנה כמות אפשרויות"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- אפשרויות תשובה -->
+    <LinearLayout
+        android:id="@+id/ll_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center" />
+
+</LinearLayout>
